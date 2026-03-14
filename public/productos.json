@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "nombre": "Aceite Motul 300V 10W40",
+    "marca": "Motul",
+    "categoria": "Lubricantes",
+    "descripcion": "Aceite sintético de alta performance para motores de 4 tiempos. Ideal para competición y uso extremo.",
+    "imagen": "https://images.pexels.com/photos/4022092/pexels-photo-4022092.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 2,
+    "nombre": "Casco Integral LS2 FF320",
+    "marca": "LS2",
+    "categoria": "Cascos",
+    "descripcion": "Casco integral con calota de policarbonato, visera antivaho y ventilación optimizada.",
+    "imagen": "https://images.pexels.com/photos/2611691/pexels-photo-2611691.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 3,
+    "nombre": "Aceite Castrol Power1 4T 20W50",
+    "marca": "Castrol",
+    "categoria": "Lubricantes",
+    "descripcion": "Aceite mineral para motores 4 tiempos, protección superior contra el desgaste.",
+    "imagen": "https://images.pexels.com/photos/13065690/pexels-photo-13065690.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 4,
+    "nombre": "Guantes Racing Alpinestars",
+    "marca": "Alpinestars",
+    "categoria": "Accesorios",
+    "descripcion": "Guantes de cuero con protecciones en nudillos y palma reforzada.",
+    "imagen": "https://images.pexels.com/photos/1619299/pexels-photo-1619299.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 5,
+    "nombre": "Kit de Herramientas Stanley 108 Piezas",
+    "marca": "Stanley",
+    "categoria": "Herramientas",
+    "descripcion": "Set completo de herramientas con maleta organizadora, incluye llaves, dados y destornilladores.",
+    "imagen": "https://images.pexels.com/photos/1249610/pexels-photo-1249610.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 6,
+    "nombre": "Pastillas de Freno Delanteras",
+    "marca": "Brembo",
+    "categoria": "Repuestos",
+    "descripcion": "Pastillas de freno de alta calidad, excelente poder de frenado y durabilidad.",
+    "imagen": "https://images.pexels.com/photos/3806249/pexels-photo-3806249.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 7,
+    "nombre": "Aceite ELF Moto 4 Road 10W40",
+    "marca": "Elf",
+    "categoria": "Lubricantes",
+    "descripcion": "Lubricante semisintético para motocicletas de calle, excelente relación calidad-precio.",
+    "imagen": "https://images.pexels.com/photos/4022092/pexels-photo-4022092.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 8,
+    "nombre": "Casco Jet LS2 OF562 Airflow",
+    "marca": "LS2",
+    "categoria": "Cascos",
+    "descripcion": "Casco jet con visor solar retráctil, perfecto para ciudad y rutas.",
+    "imagen": "https://images.pexels.com/photos/2611691/pexels-photo-2611691.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 9,
+    "nombre": "Cadena DID 520",
+    "marca": "DID",
+    "categoria": "Repuestos",
+    "descripcion": "Cadena de transmisión con sellos X-Ring, mayor durabilidad y menor mantenimiento.",
+    "imagen": "https://images.pexels.com/photos/2127733/pexels-photo-2127733.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 10,
+    "nombre": "Rodilleras Protectoras",
+    "marca": "Fox Racing",
+    "categoria": "Accesorios",
+    "descripcion": "Protecciones para rodillas con sistema de ajuste ergonómico.",
+    "imagen": "https://images.pexels.com/photos/163305/motorcycles-race-helmets-pilots-163305.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 11,
+    "nombre": "Compresor de Aire Portátil",
+    "marca": "Black & Decker",
+    "categoria": "Herramientas",
+    "descripcion": "Compresor eléctrico compacto, ideal para inflar neumáticos y tareas de taller.",
+    "imagen": "https://images.pexels.com/photos/2244746/pexels-photo-2244746.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 12,
+    "nombre": "Aceite Motul 7100 10W50",
+    "marca": "Motul",
+    "categoria": "Lubricantes",
+    "descripcion": "Aceite 100% sintético Ester-Tech, máxima protección para motores de alto rendimiento.",
+    "imagen": "https://images.pexels.com/photos/13065690/pexels-photo-13065690.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 13,
+    "nombre": "Filtro de Aceite K&N",
+    "marca": "K&N",
+    "categoria": "Repuestos",
+    "descripcion": "Filtro de aceite de alto flujo, lavable y reutilizable.",
+    "imagen": "https://images.pexels.com/photos/3806249/pexels-photo-3806249.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 14,
+    "nombre": "Casco Modular LS2 Valiant",
+    "marca": "LS2",
+    "categoria": "Cascos",
+    "descripcion": "Casco modular con certificación de seguridad, mentonera abatible.",
+    "imagen": "https://images.pexels.com/photos/2611691/pexels-photo-2611691.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 15,
+    "nombre": "Bujías NGK Iridium",
+    "marca": "NGK",
+    "categoria": "Repuestos",
+    "descripcion": "Bujías de iridio de larga duración, mejor combustión y arranque.",
+    "imagen": "https://images.pexels.com/photos/2127733/pexels-photo-2127733.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 16,
+    "nombre": "Chaqueta con Protecciones",
+    "marca": "Alpinestars",
+    "categoria": "Accesorios",
+    "descripcion": "Chaqueta textil con protecciones removibles en codos, hombros y espalda.",
+    "imagen": "https://images.pexels.com/photos/1619299/pexels-photo-1619299.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 17,
+    "nombre": "Llave de Impacto Eléctrica",
+    "marca": "Stanley",
+    "categoria": "Herramientas",
+    "descripcion": "Llave de impacto de 1/2 pulgada, 450Nm de torque máximo.",
+    "imagen": "https://images.pexels.com/photos/1249610/pexels-photo-1249610.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 18,
+    "nombre": "Batería Yuasa YTX9-BS",
+    "marca": "Yuasa",
+    "categoria": "Repuestos",
+    "descripcion": "Batería sellada libre de mantenimiento, arranque confiable en todo clima.",
+    "imagen": "https://images.pexels.com/photos/3806249/pexels-photo-3806249.jpeg?auto=compress&cs=tinysrgb&w=800"
+  }
+]
