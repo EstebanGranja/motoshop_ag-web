@@ -28,10 +28,23 @@ const Productos = () => {
       .catch((error) => console.error('Error loading products:', error));
   }, []);
 
-  const categorias = useMemo(() => {
-    const cats = Array.from(new Set(products.map((p) => p.categoria)));
-    return ['Todas', ...cats.sort()];
-  }, [products]);
+  const categorias = [
+    'Todas',
+    'Cascos',
+    'Indumentaria para moto',
+    'Cubiertas / Neumáticos',
+    'Baterías',
+    'Aceites y lubricantes',
+    'Filtros',
+    'Frenos',
+    'Transmisión',
+    'Iluminación',
+    'Sistema eléctrico',
+    'Motor',
+    'Suspensión',
+    'Accesorios para moto',
+    'Equipamiento de seguridad',
+  ];
 
   const marcas = useMemo(() => {
     const brands = Array.from(new Set(products.map((p) => p.marca)));

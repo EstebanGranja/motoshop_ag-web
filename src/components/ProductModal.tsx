@@ -17,19 +17,18 @@ interface ProductModalProps {
 }
 
 const brandColors: Record<string, string> = {
-  'Motul': 'bg-blue-600',
-  'LS2': 'bg-purple-600',
-  'Castrol': 'bg-green-600',
-  'Alpinestars': 'bg-red-600',
-  'Stanley': 'bg-yellow-600',
-  'Brembo': 'bg-red-700',
-  'Elf': 'bg-pink-600',
-  'DID': 'bg-orange-600',
-  'Fox Racing': 'bg-orange-500',
-  'Black & Decker': 'bg-orange-700',
-  'K&N': 'bg-red-500',
-  'NGK': 'bg-blue-500',
-  'Yuasa': 'bg-indigo-600',
+  'REPCOR': 'bg-red-700',
+  'STANDARD': 'bg-gray-700',
+  'SPEKTOR': 'bg-blue-700',
+  'ARAX': 'bg-green-700',
+  'HADA': 'bg-pink-700',
+  'GIROLDI': 'bg-yellow-600',
+  'JUST 1': 'bg-purple-700',
+  'NACHI': 'bg-orange-700',
+  'ORIGINE': 'bg-indigo-700',
+  'RAYBAR': 'bg-teal-700',
+  'ROHAN': 'bg-cyan-700',
+  'VALYRIO': 'bg-fuchsia-700',
 };
 
 const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) => {
@@ -72,7 +71,7 @@ const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) => {
             <X size={24} />
           </button>
 
-          <div className="w-full h-64 sm:h-96">
+          <div className="w-full h-48 sm:h-72 md:h-56 lg:h-60 xl:h-64">
             <img
               src={product.imagen}
               alt={product.nombre}
