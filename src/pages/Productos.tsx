@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 import { Search } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
 import ProductModal from '../components/ProductModal';
@@ -18,6 +18,8 @@ const Productos = () => {
   const [activeTab, setActiveTab] = useState<'categorias' | 'marcas'>('categorias');
   const [selectedFilter, setSelectedFilter] = useState('Todas');
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [animate, setAnimate] = useState(false);
+  const productsGridRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     fetch('/productos.json')
@@ -77,16 +79,25 @@ const Productos = () => {
   }, [filteredProducts, activeTab]);
 
   const handleFilterChange = (filter: string) => {
+    setAnimate(true);
     setSelectedFilter(filter);
   };
 
   const handleTabChange = (tab: 'categorias' | 'marcas') => {
+    setAnimate(true);
     setActiveTab(tab);
     setSelectedFilter('Todas');
   };
 
+  useEffect(() => {
+    if (animate && productsGridRef.current) {
+      const timeout = setTimeout(() => setAnimate(false), 350);
+      return () => clearTimeout(timeout);
+    }
+  }, [animate, selectedFilter, activeTab]);
+
   return (
-    <div className="min-h-screen bg-gray-50 pt-16">
+    <div className="min-h-screen bg-gray-50 pt-16 md:pt-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-6">Productos</h1>
@@ -145,7 +156,7 @@ const Productos = () => {
         </div>
 
         {selectedFilter === 'Todas' ? (
-          <div className="space-y-12">
+          <div className="space-y-12" ref={productsGridRef}>
             {groupedProducts.map(([group, items]) => (
               <div key={group} className="space-y-4">
                 <div className="flex items-center space-x-4">
@@ -155,7 +166,7 @@ const Productos = () => {
                   <div className="flex-1 h-1 bg-gradient-to-r from-red-600 to-black"></div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className={`grid grid-cols-1 md:grid-cols-2 gap-6 transition-all duration-300 ${animate ? 'animate-fade-move' : ''}`}> 
                   {items.map((product) => (
                     <ProductCard
                       key={product.id}
@@ -168,15 +179,23 @@ const Productos = () => {
             ))}
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {filteredProducts.map((product) => (
-              <ProductCard
-                key={product.id}
-                product={product}
-                onClick={() => setSelectedProduct(product)}
-              />
-            ))}
-          </div>
+          <>
+            <div className="flex items-center space-x-4 mb-4">
+              <h2 className="text-2xl font-bold text-gray-900 whitespace-nowrap">
+                {selectedFilter}
+              </h2>
+              <div className="flex-1 h-1 bg-gradient-to-r from-red-600 to-black"></div>
+            </div>
+            <div className={`grid grid-cols-1 md:grid-cols-2 gap-6 transition-all duration-300 ${animate ? 'animate-fade-move' : ''}`} ref={productsGridRef}>
+              {filteredProducts.map((product) => (
+                <ProductCard
+                  key={product.id}
+                  product={product}
+                  onClick={() => setSelectedProduct(product)}
+                />
+              ))}
+            </div>
+          </>
         )}
 
         {filteredProducts.length === 0 && (

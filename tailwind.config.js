@@ -14,9 +14,14 @@ export default {
             transform: 'translateY(0)',
           },
         },
+        fadeMove: {
+          '0%': { opacity: '0', transform: 'translateY(30px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
       },
       animation: {
         slideDown: 'slideDown 0.3s ease-out',
+        'fade-move': 'fadeMove 0.35s cubic-bezier(0.4,0,0.2,1)',
       },
     },
   },
