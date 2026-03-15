@@ -10,7 +10,7 @@ const Contacto = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 pt-16">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 pt-16 md:pt-32">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-12">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
@@ -40,11 +40,8 @@ const Contacto = () => {
               <div>
                 <h3 className="font-bold text-gray-900 mb-2">Dirección</h3>
                 <p className="text-gray-600">
-                  Av. Libertador 1578
-                  <br />
+                  Av. Libertador 1578,
                   Alta Gracia, Córdoba
-                  <br />
-                  Argentina
                 </p>
               </div>
             </div>
@@ -108,6 +105,19 @@ const Contacto = () => {
             <Instagram size={24} />
             <span>@motoshopag</span>
           </button>
+        </div>
+
+        <div className="mt-10 flex justify-center">
+          <iframe
+            title="Ubicación Motoshop AG"
+            src="https://www.google.com/maps?q=Av.+Libertador+1578,+Alta+Gracia,+Córdoba,+Argentina&output=embed"
+            width="100%"
+            height="350"
+            className="rounded-lg shadow-lg border-0 w-full max-w-4xl md:max-w-4xl h-[300px] md:h-[350px]"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
     </div>
