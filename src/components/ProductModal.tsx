@@ -1,4 +1,4 @@
-import { X, MessageCircle } from 'lucide-react';
+import { X } from 'lucide-react';
 import { useEffect } from 'react';
 
 interface Product {
@@ -102,7 +102,7 @@ const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) => {
               onClick={handleWhatsAppClick}
               className="flex-1 flex items-center justify-center space-x-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg transition-all duration-200 font-semibold shadow-md hover:shadow-lg"
             >
-              <MessageCircle size={20} />
+              <img src="logos/whatsapp.png" alt="WhatsApp" className="w-5 h-5" />
               <span>Consultar</span>
             </button>
 

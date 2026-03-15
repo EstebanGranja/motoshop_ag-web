@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock, MessageCircle, Instagram } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Instagram } from 'lucide-react';
 
 const Contacto = () => {
   const handleWhatsAppClick = () => {
@@ -26,7 +26,7 @@ const Contacto = () => {
             onClick={handleWhatsAppClick}
             className="w-full flex items-center justify-center space-x-3 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105 font-semibold text-lg"
           >
-            <MessageCircle size={24} />
+            <img src="logos/whatsapp.png" alt="WhatsApp" className="w-6 h-6" />
             <span>Escribinos por WhatsApp</span>
           </button>
         </div>
@@ -83,13 +83,11 @@ const Contacto = () => {
                 <h3 className="font-bold text-gray-900 mb-2">Horario</h3>
                 <div className="text-gray-600 space-y-1">
                   <p>
-                    <span className="font-medium">Lun - Vie:</span>
-                    <br />
+                    <span className="font-medium">Lun - Vie: </span>
                     8:30 - 12:45 / 16:00 - 20:30
                   </p>
                   <p>
-                    <span className="font-medium">Sáb:</span>
-                    <br />
+                    <span className="font-medium">Sáb: </span>
                     8:30 - 13:00
                   </p>
                 </div>

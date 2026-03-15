@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Evita el scroll en móviles solo en la pantalla de inicio */
+@media (max-width: 640px) {
+  body.home-no-scroll {
+    overflow: hidden !important;
+    overscroll-behavior: none;
+  }
+}
