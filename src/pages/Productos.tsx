@@ -160,7 +160,7 @@ const Productos = () => {
             {groupedProducts.map(([group, items]) => (
               <div key={group} className="space-y-4">
                 <div className="flex items-center space-x-4">
-                  <h2 className="text-2xl font-bold text-gray-900 whitespace-nowrap">
+                  <h2 className="text-4xl font-bebas text-gray-900 whitespace-nowrap">
                     {group}
                   </h2>
                   <div className="flex-1 h-1 bg-gradient-to-r from-red-600 to-black"></div>
@@ -181,7 +181,7 @@ const Productos = () => {
         ) : (
           <>
             <div className="flex items-center space-x-4 mb-4">
-              <h2 className="text-2xl font-bold text-gray-900 whitespace-nowrap">
+              <h2 className="text-4xl font-bebas text-gray-900 whitespace-nowrap">
                 {selectedFilter}
               </h2>
               <div className="flex-1 h-1 bg-gradient-to-r from-red-600 to-black"></div>

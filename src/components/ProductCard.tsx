@@ -51,7 +51,7 @@ const ProductCard = ({ product, onClick }: ProductCardProps) => {
               {product.nombre}
             </h3>
 
-            <span className={`inline-block ${brandColor} text-white text-xs font-semibold px-3 py-1 rounded-full mb-3`}>
+            <span className={`inline-block bg-brand-gradient text-white text-xs font-semibold px-3 py-1 rounded-full mb-3`}>
               {product.marca}
             </span>
 

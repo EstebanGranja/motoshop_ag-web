@@ -82,14 +82,14 @@ const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) => {
         </div>
 
         <div className="p-6 space-y-4">
-          <div>
-            <span className={`inline-block ${brandColor} text-white text-sm font-semibold px-4 py-1 rounded-full mb-3`}>
+          <div className="flex flex-col items-start">
+            <span className={`inline-block bg-brand-gradient text-white text-sm font-semibold px-4 py-1 rounded-full mb-4`}>
               {product.marca}
             </span>
 
-            <h2 className="text-3xl font-bold text-gray-900 relative inline-block">
+            <h2 className="text-3xl font-bold text-gray-900 relative inline-block pb-4">
               {product.nombre}
-              <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-red-600 to-black mt-2"></div>
+              <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-red-600 to-black opacity-60"></div>
             </h2>
           </div>
 
