@@ -1,5 +1,5 @@
-import { X } from 'lucide-react';
-import { useEffect } from 'react';
+import { X, ZoomIn } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 interface Product {
   id: number;
@@ -32,8 +32,10 @@ const brandColors: Record<string, string> = {
 };
 
 const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) => {
+  const [isFullScreen, setIsFullScreen] = useState(false);
+
   useEffect(() => {
-    if (isOpen) {
+    if (isOpen || isFullScreen) {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = 'unset';
@@ -41,7 +43,7 @@ const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) => {
     return () => {
       document.body.style.overflow = 'unset';
     };
-  }, [isOpen]);
+  }, [isOpen, isFullScreen]);
 
   if (!isOpen) return null;
 
@@ -63,7 +65,7 @@ const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) => {
         className="bg-white rounded-xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="relative">
+        <div className="relative bg-white">
           <button
             onClick={onClose}
             className="absolute top-4 right-4 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10"
@@ -71,12 +73,16 @@ const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) => {
             <X size={24} />
           </button>
 
-          <div className="w-full h-48 sm:h-72 md:h-56 lg:h-60 xl:h-64">
+          <div className="w-full h-48 sm:h-72 md:h-56 lg:h-60 xl:h-64 bg-white flex items-center justify-center relative group cursor-pointer pt-4 sm:pt-6"
+               onClick={() => setIsFullScreen(true)}>
             <img
               src={product.imagen}
               alt={product.nombre}
-              className="w-full h-full object-cover rounded-t-xl"
+              className="w-full h-full object-contain"
             />
+            <button className="absolute bottom-4 right-4 bg-red-600 hover:bg-red-700 text-white rounded-full p-3 shadow-lg transition-all opacity-0 group-hover:opacity-100">
+              <ZoomIn size={20} />
+            </button>
           </div>
         </div>
 
@@ -114,6 +120,26 @@ const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) => {
           </div>
         </div>
       </div>
+
+      {isFullScreen && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-95 z-[60] flex items-center justify-center p-4"
+          onClick={() => setIsFullScreen(false)}
+        >
+          <button
+            onClick={() => setIsFullScreen(false)}
+            className="absolute top-4 right-4 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10"
+          >
+            <X size={24} />
+          </button>
+          <img
+            src={product.imagen}
+            alt={product.nombre}
+            className="max-w-[90vw] max-h-[90vh] object-contain"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
     </div>
   );
 };

@@ -1,146 +1,458 @@
 [
   {
     "id": 1,
-    "nombre": "Aceite Motul 300V 10W40",
-    "marca": "Motul",
-    "categoria": "Lubricantes",
-    "descripcion": "Aceite sintético de alta performance para motores de 4 tiempos. Ideal para competición y uso extremo.",
-    "imagen": "https://images.pexels.com/photos/4022092/pexels-photo-4022092.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Alarma Moto",
+    "marca": "GENERICA",
+    "categoria": "Accesorios para moto",
+    "descripcion": "Alarma para moto usada para reforzar la seguridad y emitir aviso sonoro ante movimiento no autorizado.",
+    "imagen": "/productos/ACCESORIOS_MOTO/ALARMA_MOTO.png"
   },
   {
     "id": 2,
-    "nombre": "Casco Integral LS2 FF320",
-    "marca": "LS2",
-    "categoria": "Cascos",
-    "descripcion": "Casco integral con calota de policarbonato, visera antivaho y ventilación optimizada.",
-    "imagen": "https://images.pexels.com/photos/2611691/pexels-photo-2611691.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Asiento Honda Storm",
+    "marca": "HONDA",
+    "categoria": "Accesorios para moto",
+    "descripcion": "Asiento para moto utilizado como superficie de apoyo del conductor y acompañante durante la conducción.",
+    "imagen": "/productos/ACCESORIOS_MOTO/ASIENTO_HONDA_STORM.png"
   },
   {
     "id": 3,
-    "nombre": "Aceite Castrol Power1 4T 20W50",
-    "marca": "Castrol",
-    "categoria": "Lubricantes",
-    "descripcion": "Aceite mineral para motores 4 tiempos, protección superior contra el desgaste.",
-    "imagen": "https://images.pexels.com/photos/13065690/pexels-photo-13065690.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Toma Corriente",
+    "marca": "GENERICA",
+    "categoria": "Accesorios para moto",
+    "descripcion": "Toma de corriente para moto destinada a alimentar o cargar dispositivos eléctricos instalados en el vehículo.",
+    "imagen": "/productos/ACCESORIOS_MOTO/TOMA_CORRIENTE.png"
   },
   {
     "id": 4,
-    "nombre": "Guantes Racing Alpinestars",
-    "marca": "Alpinestars",
-    "categoria": "Accesorios",
-    "descripcion": "Guantes de cuero con protecciones en nudillos y palma reforzada.",
-    "imagen": "https://images.pexels.com/photos/1619299/pexels-photo-1619299.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Bujia Gilera 110",
+    "marca": "GILERA",
+    "categoria": "Motor",
+    "descripcion": "Bujía de encendido para moto, pieza que genera la chispa necesaria para arrancar y mantener el motor en marcha.",
+    "imagen": "/productos/BUJIAS/BUJIA_GILERA_110.png"
   },
   {
     "id": 5,
-    "nombre": "Kit de Herramientas Stanley 108 Piezas",
-    "marca": "Stanley",
-    "categoria": "Herramientas",
-    "descripcion": "Set completo de herramientas con maleta organizadora, incluye llaves, dados y destornilladores.",
-    "imagen": "https://images.pexels.com/photos/1249610/pexels-photo-1249610.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Bujia Zanella 150",
+    "marca": "ZANELLA",
+    "categoria": "Motor",
+    "descripcion": "Bujía de encendido para moto, pieza que genera la chispa necesaria para arrancar y mantener el motor en marcha.",
+    "imagen": "/productos/BUJIAS/BUJIA_ZANELLA_150.png"
   },
   {
     "id": 6,
-    "nombre": "Pastillas de Freno Delanteras",
-    "marca": "Brembo",
-    "categoria": "Repuestos",
-    "descripcion": "Pastillas de freno de alta calidad, excelente poder de frenado y durabilidad.",
-    "imagen": "https://images.pexels.com/photos/3806249/pexels-photo-3806249.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Calcomanía Alipestars",
+    "marca": "ALPINESTARS",
+    "categoria": "Accesorios para moto",
+    "descripcion": "Calcomanía para moto utilizada en la terminación estética, identificación o personalización de plásticos y carenados.",
+    "imagen": "/productos/CALCOMANIAS/CALCO_ALIPESTARS.png"
   },
   {
     "id": 7,
-    "nombre": "Aceite ELF Moto 4 Road 10W40",
-    "marca": "Elf",
-    "categoria": "Lubricantes",
-    "descripcion": "Lubricante semisintético para motocicletas de calle, excelente relación calidad-precio.",
-    "imagen": "https://images.pexels.com/photos/4022092/pexels-photo-4022092.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Calcomanía Fox",
+    "marca": "FOX",
+    "categoria": "Accesorios para moto",
+    "descripcion": "Calcomanía para moto utilizada en la terminación estética, identificación o personalización de plásticos y carenados.",
+    "imagen": "/productos/CALCOMANIAS/CALCO_FOX.png"
   },
   {
     "id": 8,
-    "nombre": "Casco Jet LS2 OF562 Airflow",
-    "marca": "LS2",
-    "categoria": "Cascos",
-    "descripcion": "Casco jet con visor solar retráctil, perfecto para ciudad y rutas.",
-    "imagen": "https://images.pexels.com/photos/2611691/pexels-photo-2611691.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Calcomanía Honda Negro",
+    "marca": "HONDA",
+    "categoria": "Accesorios para moto",
+    "descripcion": "Calcomanía para moto utilizada en la terminación estética, identificación o personalización de plásticos y carenados.",
+    "imagen": "/productos/CALCOMANIAS/CALCO_HONDA_NEGRO.png"
   },
   {
     "id": 9,
-    "nombre": "Cadena DID 520",
-    "marca": "DID",
-    "categoria": "Repuestos",
-    "descripcion": "Cadena de transmisión con sellos X-Ring, mayor durabilidad y menor mantenimiento.",
-    "imagen": "https://images.pexels.com/photos/2127733/pexels-photo-2127733.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Calcomanía Honda",
+    "marca": "HONDA",
+    "categoria": "Accesorios para moto",
+    "descripcion": "Calcomanía para moto utilizada en la terminación estética, identificación o personalización de plásticos y carenados.",
+    "imagen": "/productos/CALCOMANIAS/CALCO_HONDA.png"
   },
   {
     "id": 10,
-    "nombre": "Rodilleras Protectoras",
-    "marca": "Fox Racing",
-    "categoria": "Accesorios",
-    "descripcion": "Protecciones para rodillas con sistema de ajuste ergonómico.",
-    "imagen": "https://images.pexels.com/photos/163305/motorcycles-race-helmets-pilots-163305.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Calcomanía Yamaha Azul",
+    "marca": "YAMAHA",
+    "categoria": "Accesorios para moto",
+    "descripcion": "Calcomanía para moto utilizada en la terminación estética, identificación o personalización de plásticos y carenados.",
+    "imagen": "/productos/CALCOMANIAS/CALCO_YAMAHA_AZUL.png"
   },
   {
     "id": 11,
-    "nombre": "Compresor de Aire Portátil",
-    "marca": "Black & Decker",
-    "categoria": "Herramientas",
-    "descripcion": "Compresor eléctrico compacto, ideal para inflar neumáticos y tareas de taller.",
-    "imagen": "https://images.pexels.com/photos/2244746/pexels-photo-2244746.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Calcomanía Yamaha Rojo",
+    "marca": "YAMAHA",
+    "categoria": "Accesorios para moto",
+    "descripcion": "Calcomanía para moto utilizada en la terminación estética, identificación o personalización de plásticos y carenados.",
+    "imagen": "/productos/CALCOMANIAS/CALCO_YAMAHA_ROJO.png"
   },
   {
     "id": 12,
-    "nombre": "Aceite Motul 7100 10W50",
-    "marca": "Motul",
-    "categoria": "Lubricantes",
-    "descripcion": "Aceite 100% sintético Ester-Tech, máxima protección para motores de alto rendimiento.",
-    "imagen": "https://images.pexels.com/photos/13065690/pexels-photo-13065690.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Campera Racing",
+    "marca": "GENERICA",
+    "categoria": "Indumentaria para moto",
+    "descripcion": "Campera para motociclista usada como prenda de abrigo y protección básica frente al viento durante el manejo.",
+    "imagen": "/productos/CAMPERAS/CAMPERA_RACING.png"
   },
   {
     "id": 13,
-    "nombre": "Filtro de Aceite K&N",
-    "marca": "K&N",
-    "categoria": "Repuestos",
-    "descripcion": "Filtro de aceite de alto flujo, lavable y reutilizable.",
-    "imagen": "https://images.pexels.com/photos/3806249/pexels-photo-3806249.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Campera Yamaha",
+    "marca": "YAMAHA",
+    "categoria": "Indumentaria para moto",
+    "descripcion": "Campera para motociclista usada como prenda de abrigo y protección básica frente al viento durante el manejo.",
+    "imagen": "/productos/CAMPERAS/CAMPERA_YAMAHA.jpeg"
   },
   {
     "id": 14,
-    "nombre": "Casco Modular LS2 Valiant",
-    "marca": "LS2",
-    "categoria": "Cascos",
-    "descripcion": "Casco modular con certificación de seguridad, mentonera abatible.",
-    "imagen": "https://images.pexels.com/photos/2611691/pexels-photo-2611691.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Acople Carbudador Filtro",
+    "marca": "GENERICA",
+    "categoria": "Motor",
+    "descripcion": "Acople para carburador y filtro de aire, pieza de unión dentro del sistema de admisión de la moto.",
+    "imagen": "/productos/CARBURADORES/ACOPLE_CARBUDADOR_FILTRO.png"
   },
   {
     "id": 15,
-    "nombre": "Bujías NGK Iridium",
-    "marca": "NGK",
-    "categoria": "Repuestos",
-    "descripcion": "Bujías de iridio de larga duración, mejor combustión y arranque.",
-    "imagen": "https://images.pexels.com/photos/2127733/pexels-photo-2127733.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Carburador XR250",
+    "marca": "GENERICA",
+    "categoria": "Motor",
+    "descripcion": "Carburador para moto encargado de preparar la mezcla de aire y combustible que ingresa al motor.",
+    "imagen": "/productos/CARBURADORES/CARBURADOR_XR250.png"
   },
   {
     "id": 16,
-    "nombre": "Chaqueta con Protecciones",
-    "marca": "Alpinestars",
-    "categoria": "Accesorios",
-    "descripcion": "Chaqueta textil con protecciones removibles en codos, hombros y espalda.",
-    "imagen": "https://images.pexels.com/photos/1619299/pexels-photo-1619299.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Casco Axxis Gecko",
+    "marca": "AXXIS",
+    "categoria": "Cascos",
+    "descripcion": "Casco para motociclista destinado a la protección de la cabeza en uso urbano y de ruta.",
+    "imagen": "/productos/CASCOS/CASCO_AXXIS_GECKO.png"
   },
   {
     "id": 17,
-    "nombre": "Llave de Impacto Eléctrica",
-    "marca": "Stanley",
-    "categoria": "Herramientas",
-    "descripcion": "Llave de impacto de 1/2 pulgada, 450Nm de torque máximo.",
-    "imagen": "https://images.pexels.com/photos/1249610/pexels-photo-1249610.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Casco H5",
+    "marca": "GENERICA",
+    "categoria": "Cascos",
+    "descripcion": "Casco para motociclista destinado a la protección de la cabeza en uso urbano y de ruta.",
+    "imagen": "/productos/CASCOS/CASCO_H5.png"
   },
   {
     "id": 18,
-    "nombre": "Batería Yuasa YTX9-BS",
-    "marca": "Yuasa",
-    "categoria": "Repuestos",
-    "descripcion": "Batería sellada libre de mantenimiento, arranque confiable en todo clima.",
-    "imagen": "https://images.pexels.com/photos/3806249/pexels-photo-3806249.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "nombre": "Cubierta 250",
+    "marca": "GENERICA",
+    "categoria": "Cubiertas / Neumáticos",
+    "descripcion": "Cubierta para rueda de moto utilizada para tracción, estabilidad y contacto con distintas superficies de marcha.",
+    "imagen": "/productos/CUBIERTAS/CUBIERTA_250.jpeg"
+  },
+  {
+    "id": 19,
+    "nombre": "Cubierta 300X18",
+    "marca": "GENERICA",
+    "categoria": "Cubiertas / Neumáticos",
+    "descripcion": "Cubierta para rueda de moto utilizada para tracción, estabilidad y contacto con distintas superficies de marcha.",
+    "imagen": "/productos/CUBIERTAS/CUBIERTA_300x18.jpeg"
+  },
+  {
+    "id": 20,
+    "nombre": "Cubierta 80-100",
+    "marca": "GENERICA",
+    "categoria": "Cubiertas / Neumáticos",
+    "descripcion": "Cubierta para rueda de moto utilizada para tracción, estabilidad y contacto con distintas superficies de marcha.",
+    "imagen": "/productos/CUBIERTAS/CUBIERTA_80-100.png"
+  },
+  {
+    "id": 21,
+    "nombre": "Aceite Filtro Aire",
+    "marca": "GENERICA",
+    "categoria": "Filtros",
+    "descripcion": "Aceite para filtro de aire de moto, utilizado en el mantenimiento de filtros reutilizables para retener polvo fino.",
+    "imagen": "/productos/FILTROS/ACEITE_FILTRO_AIRE.png"
+  },
+  {
+    "id": 22,
+    "nombre": "Filtro Aceite XR250",
+    "marca": "GENERICA",
+    "categoria": "Filtros",
+    "descripcion": "Filtro de aceite para moto que retiene impurezas del lubricante y protege el circuito interno del motor.",
+    "imagen": "/productos/FILTROS/FILTRO_ACEITE_XR250.png"
+  },
+  {
+    "id": 23,
+    "nombre": "Filtro Aceite Yamaha",
+    "marca": "YAMAHA",
+    "categoria": "Filtros",
+    "descripcion": "Filtro de aceite para moto que retiene impurezas del lubricante y protege el circuito interno del motor.",
+    "imagen": "/productos/FILTROS/FILTRO_ACEITE_YAMAHA.png"
+  },
+  {
+    "id": 24,
+    "nombre": "Filtro Aceite",
+    "marca": "GENERICA",
+    "categoria": "Filtros",
+    "descripcion": "Filtro de aceite para moto que retiene impurezas del lubricante y protege el circuito interno del motor.",
+    "imagen": "/productos/FILTROS/FILTRO_ACEITE.png"
+  },
+  {
+    "id": 25,
+    "nombre": "Filtro Aire Bajaj",
+    "marca": "BAJAJ",
+    "categoria": "Filtros",
+    "descripcion": "Filtro de aire para moto que limpia el aire de admisión antes de su ingreso al sistema de combustión.",
+    "imagen": "/productos/FILTROS/FILTRO_AIRE_BAJAJ.png"
+  },
+  {
+    "id": 26,
+    "nombre": "Filtro Aire Zanella",
+    "marca": "ZANELLA",
+    "categoria": "Filtros",
+    "descripcion": "Filtro de aire para moto que limpia el aire de admisión antes de su ingreso al sistema de combustión.",
+    "imagen": "/productos/FILTROS/FILTRO_AIRE_ZANELLA.png"
+  },
+  {
+    "id": 27,
+    "nombre": "Filtro Nafta Chico",
+    "marca": "GENERICA",
+    "categoria": "Filtros",
+    "descripcion": "Filtro de nafta para moto que ayuda a retener partículas del combustible antes de llegar al carburador o inyección.",
+    "imagen": "/productos/FILTROS/FILTRO_NAFTA_CHICO.png"
+  },
+  {
+    "id": 28,
+    "nombre": "Filtro Nafta Mediano",
+    "marca": "GENERICA",
+    "categoria": "Filtros",
+    "descripcion": "Filtro de nafta para moto que ayuda a retener partículas del combustible antes de llegar al carburador o inyección.",
+    "imagen": "/productos/FILTROS/FILTRO_NAFTA_MEDIANO.png"
+  },
+  {
+    "id": 29,
+    "nombre": "Caliper Delantero Yamaha",
+    "marca": "YAMAHA",
+    "categoria": "Frenos",
+    "descripcion": "Caliper de freno para moto, componente que aloja pistones y pastillas para generar fuerza de frenado.",
+    "imagen": "/productos/FRENOS_DIRECCION/CALIPER_DELANTERO_YAMAHA.png"
+  },
+  {
+    "id": 30,
+    "nombre": "Cristo Inferior Honda Wave",
+    "marca": "HONDA",
+    "categoria": "Frenos",
+    "descripcion": "Cristo inferior para moto, pieza de dirección que sujeta barras y aporta rigidez al tren delantero.",
+    "imagen": "/productos/FRENOS_DIRECCION/CRISTO_INF_HONDA_WAVE.png"
+  },
+  {
+    "id": 31,
+    "nombre": "Cubeta Direccion Motomel",
+    "marca": "MOTOMEL",
+    "categoria": "Frenos",
+    "descripcion": "Cubeta de dirección para moto, componente del sistema de dirección donde se apoyan rodamientos de la columna.",
+    "imagen": "/productos/FRENOS_DIRECCION/CUBETA_DIRECCION_MOTOMEL.png"
+  },
+  {
+    "id": 32,
+    "nombre": "Guantes Estampado Deportivo",
+    "marca": "GENERICA",
+    "categoria": "Indumentaria para moto",
+    "descripcion": "Guantes para motociclista usados para proteger las manos y mejorar el agarre en manillar y comandos.",
+    "imagen": "/productos/GUANTES/GUANTES_ESTAMPADO_DEPORTIVO.png"
+  },
+  {
+    "id": 33,
+    "nombre": "Guantes Neoprene",
+    "marca": "GENERICA",
+    "categoria": "Indumentaria para moto",
+    "descripcion": "Guantes para motociclista usados para proteger las manos y mejorar el agarre en manillar y comandos.",
+    "imagen": "/productos/GUANTES/GUANTES_NEOPRENE.png"
+  },
+  {
+    "id": 34,
+    "nombre": "Guantes Softshell",
+    "marca": "GENERICA",
+    "categoria": "Indumentaria para moto",
+    "descripcion": "Guantes para motociclista usados para proteger las manos y mejorar el agarre en manillar y comandos.",
+    "imagen": "/productos/GUANTES/GUANTES_SOFTSHELL.png"
+  },
+  {
+    "id": 35,
+    "nombre": "Guantes Termico Primerapiel",
+    "marca": "GENERICA",
+    "categoria": "Indumentaria para moto",
+    "descripcion": "Guantes para motociclista usados para proteger las manos y mejorar el agarre en manillar y comandos.",
+    "imagen": "/productos/GUANTES/GUANTES_TERMICO_PRIMERAPIEL.png"
+  },
+  {
+    "id": 36,
+    "nombre": "Limpia Discos Freno",
+    "marca": "GENERICA",
+    "categoria": "Aceites y lubricantes",
+    "descripcion": "Limpiador de discos de freno para moto, usado para remover suciedad y residuos en componentes de frenado.",
+    "imagen": "/productos/LUBRICANTES/LIMPIA_DISCOS_FRENO.png"
+  },
+  {
+    "id": 37,
+    "nombre": "Liquido Multiuso",
+    "marca": "GENERICA",
+    "categoria": "Aceites y lubricantes",
+    "descripcion": "Líquido multiuso para moto empleado en tareas generales de limpieza, liberación y protección de piezas externas.",
+    "imagen": "/productos/LUBRICANTES/LIQUIDO_MULTIUSO.png"
+  },
+  {
+    "id": 38,
+    "nombre": "Liquido Refrigerante",
+    "marca": "GENERICA",
+    "categoria": "Aceites y lubricantes",
+    "descripcion": "Líquido refrigerante para moto utilizado para controlar la temperatura de trabajo en motores con sistema de refrigeración.",
+    "imagen": "/productos/LUBRICANTES/LIQUIDO_REFRIGERANTE.png"
+  },
+  {
+    "id": 39,
+    "nombre": "Lubricante Bicicletas",
+    "marca": "GENERICA",
+    "categoria": "Aceites y lubricantes",
+    "descripcion": "Lubricante para cadenas y mecanismos, utilizable en bicicletas y motos livianas según tipo de aplicación.",
+    "imagen": "/productos/LUBRICANTES/LUBRICANTE_BICICLETAS.png"
+  },
+  {
+    "id": 40,
+    "nombre": "Lubricante Cadenas",
+    "marca": "GENERICA",
+    "categoria": "Aceites y lubricantes",
+    "descripcion": "Lubricante para cadenas de moto aplicado para reducir fricción y desgaste en el sistema de transmisión final.",
+    "imagen": "/productos/LUBRICANTES/LUBRICANTE_CADENAS.png"
+  },
+  {
+    "id": 41,
+    "nombre": "Lubricante Para Enduro",
+    "marca": "GENERICA",
+    "categoria": "Aceites y lubricantes",
+    "descripcion": "Lubricante para moto orientado a uso enduro, aplicado en piezas expuestas a polvo, barro y exigencia de trabajo.",
+    "imagen": "/productos/LUBRICANTES/LUBRICANTE_PARA_ENDURO.png"
+  },
+  {
+    "id": 42,
+    "nombre": "Arbol Leva Yamaha",
+    "marca": "YAMAHA",
+    "categoria": "Motor",
+    "descripcion": "Árbol de levas para moto que controla la apertura y cierre de válvulas dentro del ciclo del motor.",
+    "imagen": "/productos/MOTOR/ARBOL_LEVA_YAMAHA.png"
+  },
+  {
+    "id": 43,
+    "nombre": "Balancin Honda Wave",
+    "marca": "HONDA",
+    "categoria": "Motor",
+    "descripcion": "Balancín para motor de moto, componente que transmite el movimiento del árbol de levas hacia las válvulas.",
+    "imagen": "/productos/MOTOR/BALANCIN_HONDA_WAVE.png"
+  },
+  {
+    "id": 44,
+    "nombre": "Biela Honda125",
+    "marca": "GENERICA",
+    "categoria": "Motor",
+    "descripcion": "Biela para motor de moto, pieza que conecta pistón y cigüeñal para transformar movimiento lineal en rotación.",
+    "imagen": "/productos/MOTOR/BIELA_HONDA125.png"
+  },
+  {
+    "id": 45,
+    "nombre": "Cilindro Gilera Smash",
+    "marca": "GILERA",
+    "categoria": "Motor",
+    "descripcion": "Cilindro para motor de moto, componente donde se desplaza el pistón y se realiza parte de la combustión.",
+    "imagen": "/productos/MOTOR/CILINDRO_GILERA_SMASH.png"
+  },
+  {
+    "id": 46,
+    "nombre": "Escape Yamaha Crypton",
+    "marca": "YAMAHA",
+    "categoria": "Motor",
+    "descripcion": "Escape para moto encargado de conducir y evacuar los gases de combustión fuera del motor.",
+    "imagen": "/productos/MOTOR/ESCAPE_YAMAHA_CRYPTON.png"
+  },
+  {
+    "id": 47,
+    "nombre": "Bocina 12V",
+    "marca": "GENERICA",
+    "categoria": "Sistema eléctrico",
+    "descripcion": "Bocina para moto utilizada como señal sonora de advertencia en circulación urbana y ruta.",
+    "imagen": "/productos/SISTEMA_ELECTRICO/BOCINA_12V.png"
+  },
+  {
+    "id": 48,
+    "nombre": "Comando Honda Wave",
+    "marca": "HONDA",
+    "categoria": "Sistema eléctrico",
+    "descripcion": "Comando eléctrico para manillar de moto, usado para accionar funciones de luces, giro o bocina según diseño.",
+    "imagen": "/productos/SISTEMA_ELECTRICO/COMANDO_HONDA_WAVE.png"
+  },
+  {
+    "id": 49,
+    "nombre": "Motor Arranque Gilera",
+    "marca": "GILERA",
+    "categoria": "Sistema eléctrico",
+    "descripcion": "Motor de arranque para moto, componente eléctrico que impulsa el giro inicial del motor al encender.",
+    "imagen": "/productos/SISTEMA_ELECTRICO/MOTOR_ARRANQUE_GILERA.png"
+  },
+  {
+    "id": 50,
+    "nombre": "Cadena Transmision",
+    "marca": "GENERICA",
+    "categoria": "Transmisión",
+    "descripcion": "Cadena de transmisión para moto que transfiere la potencia del motor hacia la rueda trasera.",
+    "imagen": "/productos/TRANSMISION/CADENA_TRANSMISION.png"
+  },
+  {
+    "id": 51,
+    "nombre": "Centrifugo Honda Wave",
+    "marca": "HONDA",
+    "categoria": "Transmisión",
+    "descripcion": "Conjunto centrífugo para moto, pieza de transmisión vinculada al acople progresivo del movimiento del motor.",
+    "imagen": "/productos/TRANSMISION/CENTRIFUGO_HONDA_WAVE.png"
+  },
+  {
+    "id": 52,
+    "nombre": "Disco Embrague Gilera",
+    "marca": "GILERA",
+    "categoria": "Transmisión",
+    "descripcion": "Disco de embrague para moto utilizado en el acople y desacople de la transmisión de potencia.",
+    "imagen": "/productos/TRANSMISION/DISCO_EMBRAGUE_GILERA.png"
+  },
+  {
+    "id": 53,
+    "nombre": "Kit Transmision Gilera",
+    "marca": "GILERA",
+    "categoria": "Transmisión",
+    "descripcion": "Kit de transmisión para moto que incluye piezas del conjunto final para transferir movimiento a la rueda.",
+    "imagen": "/productos/TRANSMISION/KIT_TRANSMISION_GILERA.png"
+  },
+  {
+    "id": 54,
+    "nombre": "Tensor Cadena",
+    "marca": "GENERICA",
+    "categoria": "Transmisión",
+    "descripcion": "Tensor de cadena para moto usado para mantener la tensión correcta en el sistema de transmisión.",
+    "imagen": "/productos/TRANSMISION/TENSOR_CADENA.png"
+  },
+  {
+    "id": 55,
+    "nombre": "Visor Halcon",
+    "marca": "HALCON",
+    "categoria": "Equipamiento de seguridad",
+    "descripcion": "Visor para casco de moto utilizado como protección frontal y para mantener campo visual durante la conducción.",
+    "imagen": "/productos/VISORES/VISOR_HALCON.png"
+  },
+  {
+    "id": 56,
+    "nombre": "Visor Opaco Claro",
+    "marca": "GENERICA",
+    "categoria": "Equipamiento de seguridad",
+    "descripcion": "Visor para casco de moto utilizado como protección frontal y para mantener campo visual durante la conducción.",
+    "imagen": "/productos/VISORES/VISOR_OPACO_CLARO.png"
+  },
+  {
+    "id": 57,
+    "nombre": "Visor Opaco",
+    "marca": "GENERICA",
+    "categoria": "Equipamiento de seguridad",
+    "descripcion": "Visor para casco de moto utilizado como protección frontal y para mantener campo visual durante la conducción.",
+    "imagen": "/productos/VISORES/VISOR_OPACO.png"
   }
 ]
