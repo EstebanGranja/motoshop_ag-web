@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { MapPin } from 'lucide-react';
+import { MapPin, ArrowRight } from 'lucide-react';
 import { useEffect } from 'react';
 
 const Home = () => {
@@ -73,14 +73,15 @@ const Home = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-0 sm:pt-4">
             <button
               onClick={() => navigate('/productos')}
-              className="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-red-600 to-red-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl hover:from-red-700 hover:to-red-800 transform hover:scale-105 transition-all duration-200"
+              className="w-auto px-10 py-4 bg-gradient-to-r from-red-600 to-red-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl hover:from-red-700 hover:to-red-800 transform hover:scale-105 transition-all duration-200 flex items-center gap-2"
             >
               Ver Productos
+              <ArrowRight size={24} className="text-black" />
             </button>
 
             <button
               onClick={() => navigate('/contacto')}
-              className="w-full sm:w-auto px-8 py-4 bg-white text-gray-900 font-semibold rounded-lg border-2 border-white hover:bg-gray-100 transform hover:scale-105 transition-all duration-200 shadow-md"
+              className="w-auto px-8 py-4 bg-white text-gray-900 font-semibold rounded-lg border-2 border-white hover:bg-gray-100 transform hover:scale-105 transition-all duration-200 shadow-md"
             >
               Contactanos
             </button>

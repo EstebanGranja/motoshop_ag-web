@@ -17,6 +17,7 @@ const Productos = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeTab, setActiveTab] = useState<'categorias' | 'marcas'>('categorias');
   const [selectedFilter, setSelectedFilter] = useState('Todas');
+  const [showMoreFilters, setShowMoreFilters] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [animate, setAnimate] = useState(false);
   const productsGridRef = useRef<HTMLDivElement>(null);
@@ -50,6 +51,20 @@ const Productos = () => {
     const brands = Array.from(new Set(products.map((p) => p.marca)));
     return ['Todas', ...brands.sort()];
   }, [products]);
+
+  const maxVisibleFilters = 6;
+  const activeFilters = useMemo(
+    () => (activeTab === 'categorias' ? categorias : marcas),
+    [activeTab, marcas]
+  );
+  const visibleFilters = useMemo(
+    () => activeFilters.slice(0, maxVisibleFilters),
+    [activeFilters]
+  );
+  const hiddenFilters = useMemo(
+    () => activeFilters.slice(maxVisibleFilters),
+    [activeFilters]
+  );
 
   const filteredProducts = useMemo(() => {
     let filtered = products;
@@ -100,7 +115,14 @@ const Productos = () => {
     setAnimate(true);
     setActiveTab(tab);
     setSelectedFilter('Todas');
+    setShowMoreFilters(false);
   };
+
+  useEffect(() => {
+    if (hiddenFilters.includes(selectedFilter)) {
+      setShowMoreFilters(true);
+    }
+  }, [hiddenFilters, selectedFilter]);
 
   useEffect(() => {
     if (animate && productsGridRef.current) {
@@ -153,7 +175,7 @@ const Productos = () => {
         </div>
 
         <div className="mb-8 flex flex-wrap gap-2">
-          {(activeTab === 'categorias' ? categorias : marcas).map((filter) => (
+          {visibleFilters.map((filter) => (
             <button
               key={filter}
               onClick={() => handleFilterChange(filter)}
@@ -166,6 +188,29 @@ const Productos = () => {
               {filter}
             </button>
           ))}
+
+          {showMoreFilters && hiddenFilters.map((filter) => (
+            <button
+              key={filter}
+              onClick={() => handleFilterChange(filter)}
+              className={`px-4 py-2 rounded-full font-medium transition-all duration-200 ${
+                selectedFilter === filter
+                  ? 'bg-gradient-to-r from-red-600 to-red-700 text-white shadow-md'
+                  : 'bg-white text-gray-700 hover:bg-gray-100 shadow-sm'
+              }`}
+            >
+              {filter}
+            </button>
+          ))}
+
+          {hiddenFilters.length > 0 && (
+            <button
+              onClick={() => setShowMoreFilters((prev) => !prev)}
+              className="px-4 py-2 rounded-full font-medium transition-all duration-200 bg-white text-gray-700 hover:bg-gray-100 shadow-sm"
+            >
+              {showMoreFilters ? 'menos...' : 'más...'}
+            </button>
+          )}
         </div>
 
         {selectedFilter === 'Todas' ? (

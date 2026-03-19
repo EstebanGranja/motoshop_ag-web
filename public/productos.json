@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nombre": "Alarma Moto",
-    "marca": "GENERICA",
+    "marca": "DZE",
     "categoria": "Accesorios para moto",
     "descripcion": "Alarma para moto usada para reforzar la seguridad y emitir aviso sonoro ante movimiento no autorizado.",
     "imagen": "/productos/ACCESORIOS_MOTO/ALARMA_MOTO.png"
@@ -89,8 +89,8 @@
   },
   {
     "id": 12,
-    "nombre": "Campera Racing",
-    "marca": "GENERICA",
+    "nombre": "Campera Honda",
+    "marca": "HONDA",
     "categoria": "Indumentaria para moto",
     "descripcion": "Campera para motociclista usada como prenda de abrigo y protección básica frente al viento durante el manejo.",
     "imagen": "/productos/CAMPERAS/CAMPERA_RACING.png"
@@ -130,7 +130,7 @@
   {
     "id": 17,
     "nombre": "Casco H5",
-    "marca": "GENERICA",
+    "marca": "H5",
     "categoria": "Cascos",
     "descripcion": "Casco para motociclista destinado a la protección de la cabeza en uso urbano y de ruta.",
     "imagen": "/productos/CASCOS/CASCO_H5.png"
@@ -162,7 +162,7 @@
   {
     "id": 21,
     "nombre": "Aceite Filtro Aire",
-    "marca": "GENERICA",
+    "marca": "MOLIFLU",
     "categoria": "Filtros",
     "descripcion": "Aceite para filtro de aire de moto, utilizado en el mantenimiento de filtros reutilizables para retener polvo fino.",
     "imagen": "/productos/FILTROS/ACEITE_FILTRO_AIRE.png"
@@ -298,7 +298,7 @@
   {
     "id": 38,
     "nombre": "Liquido Refrigerante",
-    "marca": "GENERICA",
+    "marca": "MOLIFLU",
     "categoria": "Aceites y lubricantes",
     "descripcion": "Líquido refrigerante para moto utilizado para controlar la temperatura de trabajo en motores con sistema de refrigeración.",
     "imagen": "/productos/LUBRICANTES/LIQUIDO_REFRIGERANTE.png"

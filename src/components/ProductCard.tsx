@@ -41,11 +41,11 @@ const ProductCard = ({ product, onClick }: ProductCardProps) => {
           <img
             src={product.imagen}
             alt={product.nombre}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain bg-gray-50"
           />
         </div>
 
-        <div className="flex-1 p-4 flex flex-col justify-between">
+        <div className="flex-1 p-4 flex flex-col justify-between sm:min-h-[220px]">
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-2">
               {product.nombre}
@@ -58,6 +58,19 @@ const ProductCard = ({ product, onClick }: ProductCardProps) => {
             <p className="text-gray-600 text-sm line-clamp-2">
               {product.descripcion}
             </p>
+          </div>
+
+          <div className="mt-4 flex justify-end">
+            <button
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                onClick();
+              }}
+              className="px-6 py-2 bg-black text-white text-sm font-semibold rounded-md hover:bg-gray-800 transition-colors duration-200"
+            >
+              Ver
+            </button>
           </div>
         </div>
       </div>
